@@ -134,20 +134,132 @@ ul{
         top: 5px;
         cursor: pointer;
 }
-/* Medi quaries for the navbar */
+/*hero section*/
+.images{
+    margin-top: -60px;
+    width: 600px;
+}
+.image {
+    position: absolute;
+    width: 605px;
+    height: 672px;
+    left: calc(50% - 655px/2 + 393.5px);
+}
+.imag {
+    position: absolute;
+    width: 676px;
+    height: 653px;
+    left: 452px;
+   top: 50px;
+}
+.text {
+    position: absolute;
+    width: 452px;
+    height: 136px;
+    left: 71px;
+    top: 258px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: #111B71;
+}
+.tex {
+    position: absolute;
+    width: 473px;
+    height: 68px;
+    left: 73px;
+    top: 402px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+.te {
+    position: absolute;
+    width: 364px;
+    height: 99px;
+    left: 71px;
+    top: 502px;
+    background: #FA942B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+    .te  {
+        padding-top: 30px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        /* identical to box height */
+        color: #FFFFFF;
+        text-align:center;
+    }
+.article {
+    position: absolute;
+    width: 1350px;
+    height: 283px;
+    left: 0px;
+    top: 702px;
+    background: #111B71;
+    box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.16);
+}
+.para {
+    font-family: 'Manrope';
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.par {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 200;
+    padding-left: 50px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-top:20px;
+}
+.pa {
+    width: 250px;
+    height: 51px;
+    left: 76px;
+    top: 1374px;
+    background: #FA942B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+/* Media quaries for the navbar */
 @media (max-width: 700px) {
 
-    nav{
+    nav {
         flex-direction: column;
     }
-    .nav-list{
+
+    .nav-list {
         display: none;
     }
-    ul{
+
+    ul {
         flex-direction: column;
-        
     }
-    .nav-buttons{
+
+    .nav-buttons {
         flex-direction: column;
         margin-top: 10px;
         gap: 1em;
@@ -155,10 +267,47 @@ ul{
         display: none;
     }
 
-    .hamburger-menu{
+    .hamburger-menu {
         display: block;
     }
-    
+
+    .image {
+        top: 500px;
+        margin-left: -290px;
+        width: 450px;
+        height: 350px;
+    }
+
+    .imag {
+        display: none;
+    }
+
+    .text {
+        font-size: 40px;
+        top: 130px;
+    }
+
+    .tex {
+        font-size: 12px;
+        top: 280px;
+        left: 40px;
+    }
+
+    .te {
+        top: 380px;
+    }
+
+    .article {
+        position: absolute;
+        width: 480px;
+        height: 423px;
+        margin-top: 90px;
+    }
+    .par{
+        font-size: 15px;
+        margin-right: 50px;
+    }
+    .para{
+        margin-top: 10px;
+    }
 }
-
-
