@@ -244,6 +244,66 @@ ul{
     margin-left: 50px;
     text-align: center;
 }
+
+.parag {
+    position: absolute;
+    height: 55px;
+    width: 521px;
+    left: 71px;
+    top: 1521px;
+    color: #111B71;
+    border-radius: nullpx;
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.p {
+    color: #111010;
+    position: absolute;
+    height: 55px;
+    width: 1064px;
+    left: 71px;
+    top: 1616px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 39.06px;
+    letter-spacing: 0.09em;
+    text-align: left;
+}
+
+.section-logo {
+    height: 531px;
+    width: 551px;
+    left: 964px;
+    top: 1503px;
+    border-radius: 108px;
+    position: absolute;
+}
+
+.main {
+    color: #111B71;
+    position: absolute;
+    height: 55px;
+    width: 291px;
+    left: 71px;
+    top: 2012px;
+    border-radius: nullpx;
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
 /* Media quaries for the navbar */
 @media (max-width: 700px) {
 
