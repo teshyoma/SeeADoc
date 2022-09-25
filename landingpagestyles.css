@@ -16,4 +16,146 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
+
+body{
+    font-size: 16px;
+}
+/* Navbar styling */
+nav{
+    background-color: var(--White);
+    display: flex;
+    margin: 0 2em;    
+}
+
+.nav-logo{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.nav-list{
+    align-self: center;
+    justify-self: center;
+    margin-left: 3em;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+.dropdown-btn{
+    text-decoration: none;
+    color: var(--NordBlue);
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 16px
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--NordBlue);
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: var(--White);
+    font-family: DM Sans;
+    font-weight: 500;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  .dropdown-content a:hover{
+    background-color: var(--BrightOrange);
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.nav-buttons{
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+}
+.nav-buttons > button:hover{
+    cursor: pointer;
+}
+.login-btn{
+    font-family: Manrope;
+    font-weight: 700;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 10px 13px;
+    line-height: 21.86px;
+    margin-right: 1.5em;
+    border-radius: 5px;
+}
+.login-btn > a{
+    text-decoration: none;
+    color: var(--NordBlue);
+}
+.login-btn > a:hover{
+    color: var(--White);
+}
+.login-btn:hover{
+    background-color: var(--BrightOrange);
+    padding: 10px 13px;
+}
+.reg-btn{
+    font-family: Manrope;
+    font-weight: 700;
+    background-color: var(--BrightOrange);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 13px;
+    border: none;
+    line-height: 21.86px;
+    font-size: 16px;
+}
+.reg-btn > a{
+    text-decoration: none;
+    color: var(--White);
+}
+.hamburger-menu{
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: absolute;
+        right: 10px;
+        top: 5px;
+        cursor: pointer;
+}
+/* Medi quaries for the navbar */
+@media (max-width: 700px) {
+
+    nav{
+        flex-direction: column;
+    }
+    .nav-list{
+        display: none;
+    }
+    ul{
+        flex-direction: column;
+        
+    }
+    .nav-buttons{
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 1em;
+        margin-left: .5em;
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+    
+}
+
+
