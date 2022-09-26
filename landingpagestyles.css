@@ -201,30 +201,37 @@ ul{
     }
 .article {
     position: absolute;
-    width: 1350px;
-    height: 283px;
+    width: 1705px;
+    height: 483px;
     left: 0px;
-    top: 702px;
+    top: 992px;
     background: #111B71;
     box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.16);
 }
 .para {
     font-family: 'Manrope';
-    padding-left: 50px;
+    width: 231px;
+    height: 55px;
+    left: 76px;
+    top: 1039px;
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
-    line-height: 41px;
+    font-size: 40px;
+    line-height: 55px;
     /* identical to box height */
     color: #FFFFFF;
 }
 .par {
+    width: 1250px;
+    height: 150px;
+    left: 76px;
+    top: 1115px;
     font-family: 'DM Sans';
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     padding-left: 50px;
-    font-size: 20px;
-    line-height: 29px;
+    font-size: 30px;
+    line-height: 39px;
     color: #FFFFFF;
     padding-top:20px;
 }
@@ -302,6 +309,178 @@ ul{
     letter-spacing: 0em;
     text-align: left;
 
+}
+
+#crcl1 {
+    position: absolute;
+    height: 259px;
+    width: 258px;
+    left: 422px;
+    top: 2010px;
+    border-radius: 100%;
+    background: radial-gradient(118.34% 118.34% at 82.75% -18.34%,
+     #111B71 31.72%, #FFA629 70.64%)
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 8px 5px 6px rgba(0, 0, 0, 0.25);
+}
+
+.p1 {
+    height: 85px;
+    width: 201px;
+    left: 451px;
+    top: 2085px;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#crcl2 {
+    position: absolute;
+    height: 259px;
+    width: 258px;
+    left: 669px;
+    top: 2042px;
+    border-radius: 100%;
+    background: #FFA629;
+    box-shadow: 8px 5px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.p2 {
+    height: 85px;
+    width: 201px;
+    left: 698px;
+    top: 2129px;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#crcl3 {
+    position: absolute;
+    height: 258px;
+    width: 258px;
+    left: 804px;
+    top: 2273px;
+    border-radius: 100%;
+    background: #111B71;
+    box-shadow: 8px 5px 6px rgba(0, 0, 0, 0.25);
+}
+
+.p3 {
+    height: 42px;
+    width: 201px;
+    left: 832px;
+    top: 2380px;
+    margin-top: 100px;
+    margin-left: 30px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#crcl4 {
+    position: absolute;
+    height: 259px;
+    width: 258px;
+    left: 672px;
+    top: 2454px;
+    border-radius: 100%;
+    background: radial-gradient(118.34% 118.34% at 82.75% -18.34%, 
+    #111B71 31.72%, #FFA629 70.64%) 
+/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 8px 5px 6px rgba(0, 0, 0, 0.25);
+}
+
+.p4 {
+    height: 85px;
+    width: 201px;
+    left: 700px;
+    top: 2539px;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#crcl5 {
+    position: absolute;
+    height: 258px;
+    width: 258px;
+    left: 422px;
+    top: 2445px;
+    border-radius: 100%;
+    background: #111B71E8;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.25);
+}
+
+.p5 {
+    height: 85px;
+    width: 201px;
+    left: 451px;
+    top: 2541px; 
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#crcl6 {
+    position: absolute;
+    height: 258px;
+    width: 259px;
+    left: 289px;
+    top: 2237px;
+    border-radius: 100%;
+    background: #FFA629;
+    box-shadow: 8px 5px 6px 0px #00000040;
+}
+
+.p6 {
+    height: 85px;
+    width: 236px;
+    left: 301px;
+    top: 2336px;
+    margin-top: 80px;
+    margin-left: 10px;
+    border-radius: nullpx;
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 /* Media quaries for the navbar */
