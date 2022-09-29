@@ -401,4 +401,383 @@ span {
     color: #FFA629;
 }
 
+@media screen and (max-width: 375px) {
+    body{
+        font-size: 16px;
+    }
+    
+    .logo {
+        height: 221px;
+        width: 229px;
+        left: 11px;
+        top: -3px;
+        border-radius: 108px;
+        position: absolute;
+    } 
+        
+    .navbar1 a{
+        height: 22px;
+        width: 86px;
+        left: 292px;
+        top: 60px;
+        border-radius: 0px;
+        padding: 0px;
+        gap: 4px;
+        align-items: center;  
+        display: flex;  
+        flex-direction: row; 
+        position: absolute;
+    }
+    
+    .navbar1 a img{
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 50px;
+        z-index: 1;
+        color: #121212;
+        top: 2px;
+    }
+    
+    
+    .navbar2 a{
+        height: 22px;
+        width: 117px;
+        left: 425px;
+        top: 60px;
+        border-radius: 0px;
+        padding: 0px;
+        gap: 5px;
+        align-items: center;
+        display: flex;  
+        flex-direction: row; 
+        position: absolute;
+    }
+    
+    .navbar2 a img{
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 75px;
+        z-index: 1;
+        color: #121212;
+        top: 3px;
+    }
+    
+    .navbar3 a{
+        height: 22px;
+        width: 53px;
+        left: 595px;
+        top: 61px;
+        border-radius: 0px;
+        padding: 0px;
+        gap: 9px;
+        align-items: center;
+        display: flex;  
+        flex-direction: row; 
+        position: absolute;
+    }
+    
+    .navbar3 a img{
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 29px;
+        z-index: 1;
+        color: #121212;
+        top: 1px;
+    }
+    
+    .navbar4 a{
+        height: 22px;
+        width: 70px;
+        left: 712px;
+        top: 61px;
+        border-radius: nullpx;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        position: absolute;
+    }
+    
+    .navbar4 a img{
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 45px;
+        z-index: 1;
+        color: #121212;
+        top: 2px;
+    }
+    
+    .navbar5 a{
+        height: 22px;
+        width: 55px;
+        left: 831px;
+        top: 62px;
+        border-radius: 0px;
+        padding: 0px;
+        gap: 5px;
+        align-items: center;
+        display: flex;  
+        flex-direction: row; 
+        position: absolute;
+    }
+    
+    .navbar5 a img{
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 30px;
+        z-index: 1;
+        color: #121212;
+        top: 2px;
+    }
+    
+    #menu-icon {
+        font-size: 26px;
+        color:#172048;
+        z-index: 10001;
+        cursor: pointer;
+        position: absolute;
+    }
+    
+    
+    .container-img {
+        height: 1175px;
+        width: 844px;
+        left: 629px;
+        top: 70px;
+        position: absolute;
+    }
+    
+    .container-text h2 {
+        height: 96px;
+        width: 537px;
+        left: 71px;
+        top: 313px;
+        border-radius: nullpx;
+        font-style: normal;
+        font-family: Poppins;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 96px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #172048;
+        position: absolute;
+    }
+    
+    span {
+        height: 96px;
+        width: 548px;
+        left: 71px;
+        top: 409px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFA629;   
+    }
+    
+    .container-text p {
+        height: 153px;
+        width: 461px;
+        left: 71px;
+        top: 619px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #121212E5;
+        position: absolute;
+    }
+    
+    
+    
+    .btn {
+        height: 64px;
+        width: 254px;
+        left: 71px;
+        top: 803px;
+        border-radius: 39px;
+        padding: 20px 40px 20px 40px;
+        background: linear-gradient(97.65deg, #FFA629 0.33%, #172048 54%);
+        box-shadow: 0px 10px 15px 0px #17204833;
+        position: absolute;
+        color: white;
+    }
+    
+    .btn p {
+        position: absolute;
+    }
+    
+    .count1 {
+        height: 39px;
+        width: 91px;
+        left: 71px;
+        top: 952px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #172048;
+        position: absolute;
+    }
+    
+    .count1 p {
+        height: 54px;
+        width: 101px;
+        left: 71px;
+        top: 1008px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #121212;
+    }
+    
+    .count2 {
+        height: 37px;
+        width: 85px;
+        left: 223px;
+        top: 955px;
+        border-radius: nullpx;
+        position: absolute;
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #172048;
+    }
+    
+    .count2 p {
+        height: 54px;
+        width: 96px;
+        left: 223px;
+        top: 1011px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #121212;
+    }
+    
+    .count3 {
+        height: 36px;
+        width: 70px;
+        left: 375px;
+        top: 955px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        color: #172048;
+    }
+    
+    .count3 p {
+        height: 54px;
+        width: 96px;
+        left: 375px;
+        top: 1011px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #121212;
+    
+    }
+    
+    .login-btn {
+        height: 22px;
+        width: 43px;
+        left: 1060px;
+        top: 61px;
+        border-radius: nullpx;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #172048;
+        position: absolute;
+    }
+    
+    .reg-btn {
+        height: 38px;
+        width: 119px;
+        left: 1138px;
+        top: 53px;
+        border-radius: 39px;
+        padding: 7px 26px 7px 26px;
+        background: linear-gradient(97.65deg, #FFA629 0.33%, #172048 54%);
+        box-shadow: 0px 10px 15px 0px #17204833;
+        color: white;
+        position: absolute;
+    }
+    
+    .main-text h3 {
+        height: 72px;
+        width: 91px;
+        left: 538px;
+        top: 1357px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #111B71;
+        position: absolute;
+    
+    }
+    
+    span {
+        height: 75px;
+    width: 357px;
+    left: 639px;
+    top: 1357px;
+    border-radius: nullpx;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFA629;
+    
+    }
+   
+}
+
+
 
