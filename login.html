@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeeADoc login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/SeeADoc-nav-footer-logo.png" alt="brand-logo"></a>
+    </header>
+    <main>
+        <aside>
+            <img src="images/login-img.png" alt="">
+        </aside>
+        <section>
+            <h2 class="section-heading">Welcome Back</h2>
+            <p class="section-paragraph">Enjoy  personilized  healthcare and begin living  better</p>
+            <label for="phone-number"  class="text-label">Email</label>
+            <div class="inputfield">
+            <input type="email" class="input-field" placeholder="Enter your Email" id="login-email">
+            <div class="error"></div>
+            </div>
+            <label for="password"  class="text-label">Password</label>
+            <div class="inputfield">
+                <input type="password" class="input-field" placeholder="Enter your password" id="login-password">
+                <div class="error"></div>
+            </div>
+            <div  class="check-forget-container">
+                <div class="check-container">
+                    <input type="checkbox" name="Remember-me" id="" class="checkbox-round">
+                    <label for="checkbox" class="checkbox-label">Remember me</label>
+                </div>
+                <a href=""  class="forgot-password">Forgot password?</a>
+            </div>
+            <button class="call-to-action" id="login">Sign in</button>
+            <p class="sign-up-link">Don't have an account?<a href="createacct.html">sign up</a></p>
+        </section>
+    </main>
+    <script src="js/auth.js"></script>
+</body>
+</html>
