@@ -1,4 +1,4 @@
-const verifyCode = document.getElementById("verifycode");
+export const verifyCode = document.getElementById("verifycode");
 const verifyBtn = document.getElementById("verify");
 
 

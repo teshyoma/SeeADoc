@@ -12,7 +12,14 @@ const loginBtn = document.getElementById("login")
 
 
 //validation part
-
+const data = {
+    fName: firstName,
+    mName: middleName,
+    lName: lastName,
+    emailEl: email,
+    phone: phoneNumber,
+}
+export default data;
 const isEmailValid = (email) => {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
@@ -83,47 +90,14 @@ createAcctBtn.addEventListener("click" ,function(){
     const emailValue = email.value.trim();
     const phoneNumberValue = phoneNumber.value.trim();
 
-    // if(firstNameValue === "")
-    // {
-    //     setError(firstName, "First Name cannot be empty")
-    // }else{
-    //     setSuccess(firstName)
-    // }
-    // if (lastNameValue == "") 
-    // {
-    //     setError(lastName, "last name cannot be empty")
-    // }
-    // else
-    // {
-    //     setSuccess(lastName)
-    // }
-    // if (phoneNumberValue == "")
-    // {
-    //     setError(phoneNumber, "Enter a valid phone number")
-    // }
-    // else
-    // {
-    //     setSuccess(phoneNumber)
-    // }
-    // if (emailValue == "") {
-    //     setError(email, "Email cannot be empty")
-    // } 
-    // else if (!isEmailValid(emailValue)) {
-    //     setError(email, "please enter a valid email")
-    // }
-    // else
-    // {
-    //     setSuccess(email)
-    // }
-
-    if (firstNameValue != "" && lastNameValue != "" && phoneNumberValue != "" && emailValue != "" ) {
+    //if (firstNameValue != "" && lastNameValue != "" && phoneNumberValue != "" && emailValue != "" ) {
        window.location.href = "http://127.0.0.1:5500/setpassword.html";  
-    }
-    else
-    {
-        validateCreateAccout();
-        window.localStorage.href = "http://127.0.0.1:5500/createacct.html"
-    }
+    // //}
+    // else
+    // {
+    //     validateCreateAccout();
+    //     window.localStorage.href = "http://127.0.0.1:5500/createacct.html"
+    // }
 
 })
 
@@ -133,3 +107,5 @@ createAcctBtn.addEventListener("click" ,function(){
 loginBtn.addEventListener("click", function(){
 
 })
+
+
