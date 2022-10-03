@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeeADoc login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/SeeADoc-nav-footer-logo.png" alt="brand-logo"></a>
+    </header>
+    <main>
+        <aside>
+            <img src="images/login-img.png" alt="">
+        </aside>
+        <section>
+            <h2 class="section-heading">Welcome Back</h2>
+            <p class="section-paragraph">Enjoy  personilized  healthcare and begin living  better</p>
+            <label for="phone-number"  class="text-label">Email</label>
+            <div class="inputfield">
+            <input type="email" class="input-field" placeholder="Enter your Email" id="login-email">
+            <div class="error"></div>
+            </div>
+            <label for="password"  class="text-label">Password</label>
+            <div class="inputfield">
+                <input type="password" class="input-field" placeholder="Enter your password" id="login-password">
+                <div class="error"></div>
+            </div>
+            <div  class="check-forget-container">
+                <div class="check-container">
+                    <input type="checkbox" name="Remember-me" id="" class="checkbox-round">
+                    <label for="checkbox" class="checkbox-label">Remember me</label>
+                </div>
+                <a href=""  class="forgot-password">Forgot password?</a>
+            </div>
+            <button class="call-to-action" id="login">Sign in</button>
+            <p class="sign-up-link">Don't have an account?<a href="createacct.html">sign up</a></p>
+        </section>
+    </main>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBy4RE4OLSmCDR--d6h6YmMaQeWA-zqh8w",
+          authDomain: "seeadoc-project.firebaseapp.com",
+          projectId: "seeadoc-project",
+          storageBucket: "seeadoc-project.appspot.com",
+          messagingSenderId: "887407129493",
+          appId: "1:887407129493:web:1b4a5632d307d2a32cfc9c",
+          measurementId: "G-5XRWYD9QZM"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
