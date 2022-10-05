@@ -154,7 +154,11 @@ body {
 
 #menu-icon {
     font-size: 26px;
+<<<<<<< HEAD
     color: #172048;
+=======
+    color:#172048;
+>>>>>>> cf0a321b74c618983cf7d8c2c6e9ccabc7c30936
     z-index: 10001;
     cursor: pointer;
     position: absolute;
@@ -362,17 +366,18 @@ body {
 
 .span {
     height: 75px;
-    width: 357px;
-    left: 639px;
-    top: 1357px;
-    border-radius: nullpx;
-    font-family: Poppins;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 75px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFA629;
+width: 357px;
+left: 639px;
+top: 1357px;
+border-radius: nullpx;
+font-family: Poppins;
+font-size: 50px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFA629;
+
 }
 .main {
      margin-top: 1003px;
@@ -1030,4 +1035,7 @@ body {
         color: #FFA629;
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> cf0a321b74c618983cf7d8c2c6e9ccabc7c30936
