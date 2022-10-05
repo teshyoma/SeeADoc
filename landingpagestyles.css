@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Manrope:wght@200;300;400;600;700;800&display=swap');
 
 /*root will makae it easy to access colors */
-:root{
+:root {
     --NordBlue: #1A2DD8;
     --White: #ffff;
     --Black: #00000;
@@ -12,14 +12,14 @@
 }
 /* reset */
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     /* outline: 1px solid red; */
 }
 
-body{
+body {
     font-size: 16px;
 }
 
@@ -30,9 +30,9 @@ body{
     top: -3px;
     border-radius: 108px;
     position: absolute;
-} 
-    
-.navbar1 a{
+}
+
+.navbar1 a {
     height: 22px;
     width: 86px;
     left: 292px;
@@ -40,24 +40,24 @@ body{
     border-radius: 0px;
     padding: 0px;
     gap: 4px;
-    align-items: center;  
-    display: flex;  
-    flex-direction: row; 
+    align-items: center;
+    display: flex;
+    flex-direction: row;
     position: absolute;
 }
 
-.navbar1 a img{
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    left: 50px;
-    z-index: 1;
-    color: #121212;
-    top: 2px;
-}
+    .navbar1 a img {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 50px;
+        z-index: 1;
+        color: #121212;
+        top: 2px;
+    }
 
 
-.navbar2 a{
+.navbar2 a {
     height: 22px;
     width: 117px;
     left: 425px;
@@ -66,22 +66,22 @@ body{
     padding: 0px;
     gap: 5px;
     align-items: center;
-    display: flex;  
-    flex-direction: row; 
+    display: flex;
+    flex-direction: row;
     position: absolute;
 }
 
-.navbar2 a img{
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    left: 75px;
-    z-index: 1;
-    color: #121212;
-    top: 3px;
-}
+    .navbar2 a img {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 75px;
+        z-index: 1;
+        color: #121212;
+        top: 3px;
+    }
 
-.navbar3 a{
+.navbar3 a {
     height: 22px;
     width: 53px;
     left: 595px;
@@ -90,22 +90,22 @@ body{
     padding: 0px;
     gap: 9px;
     align-items: center;
-    display: flex;  
-    flex-direction: row; 
+    display: flex;
+    flex-direction: row;
     position: absolute;
 }
 
-.navbar3 a img{
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    left: 29px;
-    z-index: 1;
-    color: #121212;
-    top: 1px;
-}
+    .navbar3 a img {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 29px;
+        z-index: 1;
+        color: #121212;
+        top: 1px;
+    }
 
-.navbar4 a{
+.navbar4 a {
     height: 22px;
     width: 70px;
     left: 712px;
@@ -118,17 +118,17 @@ body{
     position: absolute;
 }
 
-.navbar4 a img{
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    left: 45px;
-    z-index: 1;
-    color: #121212;
-    top: 2px;
-}
+    .navbar4 a img {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 45px;
+        z-index: 1;
+        color: #121212;
+        top: 2px;
+    }
 
-.navbar5 a{
+.navbar5 a {
     height: 22px;
     width: 55px;
     left: 831px;
@@ -137,30 +137,29 @@ body{
     padding: 0px;
     gap: 5px;
     align-items: center;
-    display: flex;  
-    flex-direction: row; 
+    display: flex;
+    flex-direction: row;
     position: absolute;
 }
 
-.navbar5 a img{
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    left: 30px;
-    z-index: 1;
-    color: #121212;
-    top: 2px;
-}
+    .navbar5 a img {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 30px;
+        z-index: 1;
+        color: #121212;
+        top: 2px;
+    }
 
 #menu-icon {
     font-size: 26px;
-    color: white;
+
+    color: #172048;
     z-index: 10001;
     cursor: pointer;
-    display: none;
+    position: absolute;
 }
-
-
 
 
 .container-img {
@@ -188,7 +187,7 @@ body{
     position: absolute;
 }
 
-span {
+.span {
     height: 96px;
     width: 548px;
     left: 71px;
@@ -201,7 +200,7 @@ span {
     line-height: 96px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFA629;   
+    color: #FFA629;
 }
 
 .container-text p {
@@ -221,30 +220,27 @@ span {
     position: absolute;
 }
 
-#menu-icon {
-   font-size: 26px;
-   color:#172048;
-   z-index: 10001;
-   cursor: pointer;
-   position: absolute; 
-}
+
 
 .btn {
-    height: 64px;
-    width: 254px;
-    left: 71px;
-    top: 803px;
-    border-radius: 39px;
-    padding: 20px 40px 20px 40px;
-    background: linear-gradient(97.65deg, #FFA629 0.33%, #172048 54%);
-    box-shadow: 0px 10px 15px 0px #17204833;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 40px;
+    gap: 10px;
     position: absolute;
+    width: 254px;
+    height: 64px;
+    left: 71px;
+    top: 819px;
+    background: linear-gradient(97.65deg, #FFA629 0.33%, #172048 54%);
+    box-shadow: 0px 10px 15px rgba(23, 32, 72, 0.2);
+    border-radius: 39px;
+    color: white;
+    text-decoration:none;
     color: white;
 }
-
-.btn p {
-    position: absolute;
-}
+   
 
 .count1 {
     height: 39px;
@@ -262,20 +258,20 @@ span {
     position: absolute;
 }
 
-.count1 p {
-    height: 54px;
-    width: 101px;
-    left: 71px;
-    top: 1008px;
-    border-radius: nullpx;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #121212;
-}
+    .count1 p {
+        height: 54px;
+        width: 101px;
+        left: 71px;
+        top: 1008px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #121212;
+    }
 
 .count2 {
     height: 37px;
@@ -293,20 +289,20 @@ span {
     color: #172048;
 }
 
-.count2 p {
-    height: 54px;
-    width: 96px;
-    left: 223px;
-    top: 1011px;
-    border-radius: nullpx;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #121212;
-}
+    .count2 p {
+        height: 54px;
+        width: 96px;
+        left: 223px;
+        top: 1011px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #121212;
+    }
 
 .count3 {
     height: 36px;
@@ -324,21 +320,20 @@ span {
     color: #172048;
 }
 
-.count3 p {
-    height: 54px;
-    width: 96px;
-    left: 375px;
-    top: 1011px;
-    border-radius: nullpx;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #121212;
-
-}
+    .count3 p {
+        height: 54px;
+        width: 96px;
+        left: 375px;
+        top: 1011px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #121212;
+    }
 
 .login-btn {
     height: 22px;
@@ -354,6 +349,7 @@ span {
     text-align: left;
     color: #172048;
     position: absolute;
+   
 }
 
 .reg-btn {
@@ -367,45 +363,313 @@ span {
     box-shadow: 0px 10px 15px 0px #17204833;
     color: white;
     position: absolute;
+  
 }
 
-.main-text h3 {
-    height: 72px;
-    width: 91px;
-    left: 538px;
-    top: 1357px;
-    border-radius: nullpx;
-    font-family: Poppins;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 72px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #111B71;
-    position: absolute;
-
-}
-
-span {
+.span {
     height: 75px;
-    width: 357px;
-    left: 639px;
-    top: 1357px;
-    border-radius: nullpx;
-    font-family: Poppins;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 75px;
-    letter-spacing: 0em;
+width: 357px;
+left: 639px;
+top: 1357px;
+border-radius: nullpx;
+font-family: Poppins;
+font-size: 50px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFA629;
+
+}
+.main {
+     margin-top: 1003px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.b {
+    width: 356px;
+    height: 511.66px;
+    background: #111B71;
+    box-shadow: 0px 4px 16px #172048;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+.d {
+    width: 162px;
+    height: 162px;
+    left: 257px;
+    top: 1717px;
+    filter: drop-shadow(0px 10px 15px rgba(151, 151, 151, 0.08));
+    margin-top: 90px;
+    margin-left: 70px;
+}
+
+.e {
+    width: 230.32px;
+    height: 51.25px;
+    top: 1935px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
     text-align: center;
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.p1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+    color: #111B71;
+    text-align: center;
+}
+.p2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    /* identical to box height */
+    color: #FFA629;
+    text-align: center;
+}
+.f {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 343px;
+    height: 93px;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.g {
+    width: 162px;
+    height: 162px;
+    left: 679px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 200px;
+    justify-content: space-between;
+    align-items:center;
+}
+.u {
+   margin-right: 100px;
+   width: 700px;
+}
+.x {
+    width: 420px;
+    height: 145px;
+    left: 736px;
+    top: 2473px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(18, 18, 18, 0.55);
+}
+.z {
+    width: 37px;
+    height: 37px;
+    left: 1062px;
+    top: 2666px;
+}
+.z2 {
+    width: 178px;
+    height: 27px;
+    left: 740px;
+    top: 2730px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #172048;
+}
+.z3 {
+    width: 205px;
+    height: 89px;
+    left: 736px;
+    top: 2767px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+    color: rgba(18, 18, 18, 0.55);
+}
+.l{
+    float: right;
+}
+.n{
+    float: left;
+}
+.z4 {
+    width: 269px;
+    height: 27px;
+    left: 744px;
+    top: 2978px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #172048;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    justify-content: space-between;
+    
+}
+.parent {
+    width: 1440px;
+    height: 1000px;
+    background: #172048;
+}
+.o {
+    width: 109px;
+    height: 27px;
+   left: 76px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.m{
+    margin-left: 76px;
+}
+.p {
+    width: 432px;
+    height: 72px;
+    left: 76px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
     color: #FFA629;
 }
+.q {
+    width: 483px;
+    height: 69px;
+    left: 76px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.61);
+}
+.k{
+    margin-top: 45px;
 
-@media screen and (max-width: 375px) {
-    body{
+}
+.on{
+     width: 161px;
+    height: 45px;
+    background: rgba(255, 166, 41, 0.93);
+    border-radius: 39px;
+    color: white;
+    margin-right: 170px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+.on a{
+    text-decoration: none;
+    color: white;
+    
+}
+.of {
+    width: 1000px;
+    height: 317px;
+    margin-bottom: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 15px rgba(23, 32, 72, 0.2);
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.no {
+    width: 784px;
+    height: 62px;
+   margin-left: 96px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170%;
+    /* or 31px */
+
+    text-align: center;
+    color: #121212;
+}
+.or {
+    width: 209px;
+    height: 64px;
+    background: linear-gradient(94.44deg, #172048 -0.79%, #FFA629 136.36%);
+    margin-left: 430px;
+    margin-top: 40px;
+    padding-top: 25px;
+    text-align: center;
+    box-shadow: 0px 10px 15px rgba(1, 115, 153, 0.2);
+    border-radius: 39px;
+}
+.or a{
+    text-decoration: none;
+  color: white;
+}
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .u{
+        width: 400px;
+    }
+    .parent{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    body {
         font-size: 16px;
     }
-    
+
     .logo {
         height: 221px;
         width: 229px;
@@ -413,9 +677,9 @@ span {
         top: -3px;
         border-radius: 108px;
         position: absolute;
-    } 
-        
-    .navbar1 a{
+    }
+
+    .navbar1 a {
         height: 22px;
         width: 86px;
         left: 292px;
@@ -423,24 +687,24 @@ span {
         border-radius: 0px;
         padding: 0px;
         gap: 4px;
-        align-items: center;  
-        display: flex;  
-        flex-direction: row; 
+        align-items: center;
+        display: flex;
+        flex-direction: row;
         position: absolute;
     }
-    
-    .navbar1 a img{
-        position: absolute;
-        height: 20px;
-        width: 20px;
-        left: 50px;
-        z-index: 1;
-        color: #121212;
-        top: 2px;
-    }
-    
-    
-    .navbar2 a{
+
+        .navbar1 a img {
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            left: 50px;
+            z-index: 1;
+            color: #121212;
+            top: 2px;
+        }
+
+
+    .navbar2 a {
         height: 22px;
         width: 117px;
         left: 425px;
@@ -449,22 +713,22 @@ span {
         padding: 0px;
         gap: 5px;
         align-items: center;
-        display: flex;  
-        flex-direction: row; 
+        display: flex;
+        flex-direction: row;
         position: absolute;
     }
-    
-    .navbar2 a img{
-        position: absolute;
-        height: 20px;
-        width: 20px;
-        left: 75px;
-        z-index: 1;
-        color: #121212;
-        top: 3px;
-    }
-    
-    .navbar3 a{
+
+        .navbar2 a img {
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            left: 75px;
+            z-index: 1;
+            color: #121212;
+            top: 3px;
+        }
+
+    .navbar3 a {
         height: 22px;
         width: 53px;
         left: 595px;
@@ -473,22 +737,22 @@ span {
         padding: 0px;
         gap: 9px;
         align-items: center;
-        display: flex;  
-        flex-direction: row; 
+        display: flex;
+        flex-direction: row;
         position: absolute;
     }
-    
-    .navbar3 a img{
-        position: absolute;
-        height: 20px;
-        width: 20px;
-        left: 29px;
-        z-index: 1;
-        color: #121212;
-        top: 1px;
-    }
-    
-    .navbar4 a{
+
+        .navbar3 a img {
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            left: 29px;
+            z-index: 1;
+            color: #121212;
+            top: 1px;
+        }
+
+    .navbar4 a {
         height: 22px;
         width: 70px;
         left: 712px;
@@ -500,18 +764,18 @@ span {
         line-height: 22px;
         position: absolute;
     }
-    
-    .navbar4 a img{
-        position: absolute;
-        height: 20px;
-        width: 20px;
-        left: 45px;
-        z-index: 1;
-        color: #121212;
-        top: 2px;
-    }
-    
-    .navbar5 a{
+
+        .navbar4 a img {
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            left: 45px;
+            z-index: 1;
+            color: #121212;
+            top: 2px;
+        }
+
+    .navbar5 a {
         height: 22px;
         width: 55px;
         left: 831px;
@@ -520,30 +784,30 @@ span {
         padding: 0px;
         gap: 5px;
         align-items: center;
-        display: flex;  
-        flex-direction: row; 
+        display: flex;
+        flex-direction: row;
         position: absolute;
     }
-    
-    .navbar5 a img{
-        position: absolute;
-        height: 20px;
-        width: 20px;
-        left: 30px;
-        z-index: 1;
-        color: #121212;
-        top: 2px;
-    }
-    
+
+        .navbar5 a img {
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            left: 30px;
+            z-index: 1;
+            color: #121212;
+            top: 2px;
+        }
+
     #menu-icon {
         font-size: 26px;
-        color:#172048;
+        color: #172048;
         z-index: 10001;
         cursor: pointer;
         position: absolute;
     }
-    
-    
+
+
     .container-img {
         height: 1175px;
         width: 844px;
@@ -551,7 +815,7 @@ span {
         top: 70px;
         position: absolute;
     }
-    
+
     .container-text h2 {
         height: 96px;
         width: 537px;
@@ -568,8 +832,8 @@ span {
         color: #172048;
         position: absolute;
     }
-    
-    span {
+
+    .span {
         height: 96px;
         width: 548px;
         left: 71px;
@@ -582,9 +846,9 @@ span {
         line-height: 96px;
         letter-spacing: 0em;
         text-align: left;
-        color: #FFA629;   
+        color: #FFA629;
     }
-    
+
     .container-text p {
         height: 153px;
         width: 461px;
@@ -601,9 +865,9 @@ span {
         color: #121212E5;
         position: absolute;
     }
-    
-    
-    
+
+
+
     .btn {
         height: 64px;
         width: 254px;
@@ -616,11 +880,11 @@ span {
         position: absolute;
         color: white;
     }
-    
-    .btn p {
-        position: absolute;
-    }
-    
+
+        .btn p {
+            position: absolute;
+        }
+
     .count1 {
         height: 39px;
         width: 91px;
@@ -636,22 +900,22 @@ span {
         color: #172048;
         position: absolute;
     }
-    
-    .count1 p {
-        height: 54px;
-        width: 101px;
-        left: 71px;
-        top: 1008px;
-        border-radius: nullpx;
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 27px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #121212;
-    }
-    
+
+        .count1 p {
+            height: 54px;
+            width: 101px;
+            left: 71px;
+            top: 1008px;
+            border-radius: nullpx;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #121212;
+        }
+
     .count2 {
         height: 37px;
         width: 85px;
@@ -667,22 +931,22 @@ span {
         text-align: left;
         color: #172048;
     }
-    
-    .count2 p {
-        height: 54px;
-        width: 96px;
-        left: 223px;
-        top: 1011px;
-        border-radius: nullpx;
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 27px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #121212;
-    }
-    
+
+        .count2 p {
+            height: 54px;
+            width: 96px;
+            left: 223px;
+            top: 1011px;
+            border-radius: nullpx;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #121212;
+        }
+
     .count3 {
         height: 36px;
         width: 70px;
@@ -698,23 +962,22 @@ span {
         position: absolute;
         color: #172048;
     }
-    
-    .count3 p {
-        height: 54px;
-        width: 96px;
-        left: 375px;
-        top: 1011px;
-        border-radius: nullpx;
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 27px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #121212;
-    
-    }
-    
+
+        .count3 p {
+            height: 54px;
+            width: 96px;
+            left: 375px;
+            top: 1011px;
+            border-radius: nullpx;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #121212;
+        }
+
     .login-btn {
         height: 22px;
         width: 43px;
@@ -730,7 +993,7 @@ span {
         color: #172048;
         position: absolute;
     }
-    
+
     .reg-btn {
         height: 38px;
         width: 119px;
@@ -743,7 +1006,7 @@ span {
         color: white;
         position: absolute;
     }
-    
+
     .main-text h3 {
         height: 72px;
         width: 91px;
@@ -758,26 +1021,20 @@ span {
         text-align: center;
         color: #111B71;
         position: absolute;
-    
     }
-    
-    span {
+
+    .span {
         height: 75px;
-    width: 357px;
-    left: 639px;
-    top: 1357px;
-    border-radius: nullpx;
-    font-family: Poppins;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 75px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFA629;
-    
+        width: 357px;
+        left: 639px;
+        top: 1357px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFA629;
     }
-   
 }
-
-
-
