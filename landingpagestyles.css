@@ -650,6 +650,19 @@ color: #FFA629;
     text-decoration: none;
   color: white;
 }
+.to {
+    display: flex;
+    margin-right: 180px;
+    margin-bottom: 90px;
+    width: 500px;
+}
+.ob {
+    position: absolute;
+    width: 351px;
+    height: 526px;
+    left: 915px;
+    top: 2970px;
+}
 @media (max-width: 800px) {
     .flex-container {
         flex-direction: column;
@@ -662,6 +675,37 @@ color: #FFA629;
     }
     .parent{
         flex-direction: column;
+        flex-wrap: nowrap;
+        height: 1200px;
+    }
+    .to{
+        width: 300px;
+        margin-top: 30px;
+    }
+    .ob {
+        margin-top: 1830px;
+        left: 0px;
+        width: 251px;
+        height: 270px;
+        margin-left: 65px;
+      
+    }
+    .of {
+        width: 450px;
+        height: 357px;
+        padding: 5px;
+        margin-bottom: 400px;
+       margin-left: 10px;
+        margin-top: -50px;
+        margin-right: 10px;
+    }
+    .no {
+       width: 400px; 
+       margin: 0px;
+    }
+    .or{
+        margin-left: 70px;
+       
     }
 }
 
