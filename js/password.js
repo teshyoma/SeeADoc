@@ -1,5 +1,5 @@
-export const password = document.getElementById("password");
-export const confirmPassword = document.getElementById("confirm-password");
+const password = document.getElementById("password");
+ const confirmPassword = document.getElementById("confirm-password");
 const setPasswordBtn = document.getElementById("setpassword");
 
 

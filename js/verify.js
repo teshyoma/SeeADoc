@@ -1,4 +1,4 @@
-export const verifyCode = document.getElementById("verifycode");
+const verifyCode = document.getElementById("verifycode");
 const verifyBtn = document.getElementById("verify");
 
 
@@ -31,14 +31,5 @@ const validateVerificationCode = () => {
 
 verifyBtn.addEventListener("click", function(){
     const verificationCode = verifyCode.value.trim();
-    if (verificationCode != "") {
-    window.location.href ="http://127.0.0.1:5500/login.html";
-        
-    }
-    else
-    {
-       validateVerificationCode();
-       window.location.href ="http://127.0.0.1:5500/verify.html";
-    }
 
  })

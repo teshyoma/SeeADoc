@@ -10,16 +10,6 @@ const termsAccept = document.getElementById("termsandcondition")
 const createAcctBtn = document.getElementById("createacct");
 const loginBtn = document.getElementById("login")
 
-
-//validation part
-const data = {
-    fName: firstName,
-    mName: middleName,
-    lName: lastName,
-    emailEl: email,
-    phone: phoneNumber,
-}
-export default data;
 const isEmailValid = (email) => {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
@@ -84,21 +74,7 @@ const validateCreateAccout =  () => {
 
 
 createAcctBtn.addEventListener("click" ,function(){
-    const firstNameValue = firstName.value.trim();
-    const middleNameValue = middleName.value.trim();
-    const lastNameValue = lastName.value.trim();
-    const emailValue = email.value.trim();
-    const phoneNumberValue = phoneNumber.value.trim();
-
-    //if (firstNameValue != "" && lastNameValue != "" && phoneNumberValue != "" && emailValue != "" ) {
-       window.location.href = "http://127.0.0.1:5500/setpassword.html";  
-    // //}
-    // else
-    // {
-    //     validateCreateAccout();
-    //     window.localStorage.href = "http://127.0.0.1:5500/createacct.html"
-    // }
-
+    validateCreateAccout();
 })
 
 

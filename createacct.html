@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SeeADoc login</title>
+    <title>SeeADoc-Create Account</title>
     <link rel="stylesheet" href="css/create.css">
 </head>
+
 <body>
     <header>
         <a href="index.html"><img src="images/SeeADoc-nav-footer-logo.png" alt="brand-logo"></a>
@@ -15,7 +17,7 @@
         <aside>
             <img src="images/create-img.png" alt="">
             <h2>Helping you get well and living better</h2>
-            <p>Get personalized care from  certified local and international doctors online</p>
+            <p>Get personalized care from certified local and international doctors online</p>
             <div class="download-logo">
                 <a href=""><img src="images/playstore.png" alt="goggle-logo"></a>
                 <a href=""><img src="images/apple.png" alt="apple-logo"></a>
@@ -24,54 +26,58 @@
         <section>
             <h2 class="section-heading">Create an account</h2>
             <p class="section-paragraph">Start living better and enjoy personalized care</p>
-            <label for="first-name" class="text-label">First name</label>
-            <div class="inputfield">
-                <input type="text" name="" id="firstname" class="input-field">
+            <form onsubmit="return validatCreateAccout()" action="setpassword.html">
+                <label for="first-name" class="text-label">First name</label>
+                <div class="inputfield">
+                    <input type="text" name="" id="firstname" class="input-field">
 
-                <div class="error"></div>
-            </div>
-            <div class="inputfield">
-            <label for="middle-name" class="text-label">Middle name</label>
+                    <div class="error"></div>
+                </div>
+                <div class="inputfield">
+                    <label for="middle-name" class="text-label">Middle name</label>
 
-                <div class="error"></div>
-            </div>
-            <div class="inputfield">
-            <input type="text" name="" id="middlename" class="input-field">
+                    <div class="error"></div>
+                </div>
+                <div class="inputfield">
+                    <input type="text" name="" id="middlename" class="input-field">
 
-                <div class="error"></div>
-            </div>
-            <label for="last-name" class="text-label">Last name</label>
-            <div class="inputfield">
-            <input type="text" name="" id="lastname" class="input-field">
+                    <div class="error"></div>
+                </div>
+                <label for="last-name" class="text-label">Last name</label>
+                <div class="inputfield">
+                    <input type="text" name="" id="lastname" class="input-field">
 
-                <div class="error"></div>
-            </div>
-            <label for="phone" class="text-label">phone number</label>
-            <div class="inputfield">
-            <input type="text" name="" id="phone" class="input-field">
+                    <div class="error"></div>
+                </div>
+                <label for="phone" class="text-label">phone number</label>
+                <div class="inputfield">
+                    <input type="text" name="" id="phone" class="input-field">
 
-                <div class="error"></div>
-            </div>
-            <label for="email"  class="text-label">Email</label>
-            <div class="inputfield">
-            <input type="email" class="input-field" id="email" placeholder="Enter your Email">
+                    <div class="error"></div>
+                </div>
+                <label for="email" class="text-label">Email</label>
+                <div class="inputfield">
+                    <input type="email" class="input-field" id="email" placeholder="Enter your Email">
 
-                <div class="error"></div>
-            </div>
-            <label for="first-name" class="text-label">Referral Code</label>
-            <input type="text" name="" id="referral" class="input-field">
-            <div  class="check-forget-container">
-                <div class="check-container">
-                    <input type="checkbox" name="Remember-me" id="emailsubscription" class="checkbox-round">
-                    <label for="checkbox" class="checkbox-label">I confirm that i regularly access this mailbox and that it is my prefered
-                        email address to receie personal confidential and sensitive medical
-                        information</label>
+                    <div class="error"></div>
+                </div>
+                <label for="first-name" class="text-label">Referral Code</label>
+                <input type="text" name="" id="referral" class="input-field">
+                <div class="check-forget-container">
+                    <div class="check-container">
+                        <input type="checkbox" name="Remember-me" id="emailsubscription" class="checkbox-round">
+                        <label for="checkbox" class="checkbox-label">I confirm that i regularly access this mailbox and
+                            that it is my prefered
+                            email address to receie personal confidential and sensitive medical
+                            information</label>
                     </div>
-            </div>
-           <button class="call-to-action" id="createacct">Continue</button>
+                </div>
+                <button class="call-to-action" id="createacct" type="submit">Continue</button>
+            </form>
         </section>
     </main>
-    
+
     <script src="js/create.js"></script>
 </body>
+
 </html>

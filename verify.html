@@ -24,6 +24,7 @@
         <section>
             <h2 class="section-heading">Confirm Verification Code</h2>
             <p class="section-paragraph">Kindly check your enail and enter the code you received</p>
+            <form onsubmit="return validateVerificationCode()" action="login.html">
             <label for="password"  class="text-label">Verification  Code *</label>
             <div class="inputfield">
                  <input type="text" class="input-field" id="verifycode">
@@ -35,6 +36,7 @@
                     Time Left:</p>
             </div>
             <button class="call-to-action" id="verify">Confirm Code</button>
+            </form>
         </section>
     </main>
     <script src="js/verify.js"></script>
