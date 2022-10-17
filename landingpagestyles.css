@@ -154,13 +154,11 @@ body{
 
 #menu-icon {
     font-size: 26px;
-    color: white;
+    color:#172048;
     z-index: 10001;
     cursor: pointer;
-    display: none;
+    position: absolute;
 }
-
-
 
 
 .container-img {
@@ -221,13 +219,7 @@ span {
     position: absolute;
 }
 
-#menu-icon {
-   font-size: 26px;
-   color:#172048;
-   z-index: 10001;
-   cursor: pointer;
-   position: absolute; 
-}
+
 
 .btn {
     height: 64px;
@@ -388,17 +380,18 @@ span {
 
 span {
     height: 75px;
-    width: 357px;
-    left: 639px;
-    top: 1357px;
-    border-radius: nullpx;
-    font-family: Poppins;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 75px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFA629;
+width: 357px;
+left: 639px;
+top: 1357px;
+border-radius: nullpx;
+font-family: Poppins;
+font-size: 50px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFA629;
+
 }
 
 @media screen and (max-width: 375px) {
@@ -778,6 +771,3 @@ span {
     }
    
 }
-
-
-
